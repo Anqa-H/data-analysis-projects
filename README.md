@@ -1,82 +1,94 @@
-# Data Analysis Projects Portfolio
+# Data Analysis Projects
 
-This repository contains a complete data analysis portfolio assignment that combines Excel, Power BI, Python, SQL, and presentation deliverables. The project demonstrates practical business analytics skills across data exploration, reporting, querying, and executive communication.
+## Overview
 
-## Project Overview
+This repository contains a complete data analysis project completed as part of a Data Analysis course. The project follows an end-to-end analytics workflow using a sales dataset and demonstrates data cleaning, transformation, analysis, and visualization across multiple tools.
 
-The analysis focuses on sales and profitability performance using a sales dataset. It includes interactive reporting, spreadsheet analysis, Python-based exploration, SQL business questions, and a final presentation summarizing the work.
+## Project Objectives
 
-## Repository Structure
+The goal of this project was to practice the full data analysis process by:
 
-```text
-.
-+-- excel/
-|   +-- excel_project.xlsx
-+-- notebooks/
-|   +-- python_analysis.ipynb
-+-- powerbi/
-|   +-- powerbi_report.pbix
-+-- presentation/
-|   +-- Data_Analysis_Projects_Assignment.pptx
-+-- sql/
-|   +-- Month-over-month profit growth per city.sql
-|   +-- Top rep per product category.sql
-|   +-- Total sales by city.sql
-+-- README.md
-```
-
-## Contents
-
-### Excel Analysis
-
-The Excel workbook includes spreadsheet-based analysis and reporting for the sales dataset.
-
-File: `excel/excel_project.xlsx`
-
-### Power BI Dashboard
-
-The Power BI report provides a visual business intelligence layer for exploring sales and profit performance.
-
-File: `powerbi/powerbi_report.pbix`
-
-### Python Analysis
-
-The Jupyter Notebook contains Python-based data analysis, supporting exploration, calculations, and analytical insights.
-
-File: `notebooks/python_analysis.ipynb`
-
-### SQL Queries
-
-The SQL folder contains focused business queries:
-
-- `Total sales by city.sql`: Calculates total sales and total profit by city.
-- `Top rep per product category.sql`: Identifies the highest-profit sales representative for each product category.
-- `Month-over-month profit growth per city.sql`: Calculates monthly profit and month-over-month growth by city.
-
-### Presentation
-
-The presentation summarizes the project findings and deliverables in a format suitable for review or portfolio presentation.
-
-File: `presentation/Data_Analysis_Projects_Assignment.pptx`
-
-## Skills Demonstrated
-
-- Data analysis and business reporting
-- Excel workbook analysis
-- Power BI dashboard development
-- Python analysis with Jupyter Notebook
-- SQL aggregation, ranking, window functions, and month-over-month calculations
-- Portfolio documentation and project organization
+* Cleaning and preparing raw data
+* Performing exploratory data analysis (EDA)
+* Creating business insights from data
+* Building dashboards and visualizations
+* Writing SQL queries for business reporting
+* Communicating findings effectively
 
 ## Tools Used
 
-- Microsoft Excel
-- Microsoft Power BI
-- Python / Jupyter Notebook
-- SQL
-- Microsoft PowerPoint
-- Git and GitHub
+* Microsoft Excel
+* Power BI
+* Python (Pandas, NumPy, Matplotlib)
+* SQL
 
-## Author
+## Project Structure
 
-Anqa Alshammry
+```text
+data-analysis-projects/
+│
+├── assignment/
+│   └── Data_Analysis_Projects_Assignment.pptx
+│
+├── excel/
+│   └── excel_project.xlsx
+│
+├── powerbi/
+│   └── powerbi_report.pbix
+│
+├── python/
+│   └── python_analysis.ipynb
+│
+└── sql/
+    ├── total_sales_by_city.sql
+    ├── top_rep_per_product_category.sql
+    └── month_over_month_profit_growth.sql
+```
+
+## What I Practiced
+
+### Excel
+
+* Data cleaning and preparation
+* Calculating profit and business metrics
+* Pivot tables and summaries
+* Interactive dashboard creation
+
+### Power BI
+
+* Data modeling
+* Power Query transformations
+* DAX measures
+* Interactive reports and dashboards
+
+### Python
+
+* Data cleaning with Pandas
+* Exploratory Data Analysis (EDA)
+* Statistical analysis
+* Data visualization using Matplotlib
+
+### SQL
+
+* Aggregations and grouping
+* Ranking and window functions
+* Common Table Expressions (CTEs)
+* Business reporting queries
+
+## Key Skills Demonstrated
+
+* Data Cleaning
+* Data Transformation
+* Exploratory Data Analysis
+* Dashboard Development
+* Business Intelligence
+* Data Visualization
+* SQL Query Development
+* Analytical Thinking
+
+## Key Learnings
+
+Through this project, I gained hands-on experience working with the same dataset across multiple analytics tools. I learned how different tools complement each other in the data analysis workflow and how to transform raw data into meaningful business insights.
+
+
+
